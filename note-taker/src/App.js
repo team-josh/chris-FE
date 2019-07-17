@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom';
 import styled from 'styled-components';
 
 import Navbar from './components/Navbar';
-import LandingPage from './views/LandingPage';
+import LandingPage from './views/LandingPage/LandingPage';
 
 const AppContainer = styled.div``;
 

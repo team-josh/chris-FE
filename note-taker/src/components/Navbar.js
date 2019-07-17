@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppBar, Toolbar, Typography, Link } from '@material-ui/core';
+import { AppBar, Toolbar, Link } from '@material-ui/core';
 import styled from 'styled-components';
 
 const StyledToolbar = styled(Toolbar)`
@@ -19,7 +19,7 @@ const Navbar = () => {
     return (
         <AppBar position="fixed">
             <StyledToolbar>
-                <h3>Note Taker</h3>
+                <h3>NoteTaker</h3>
                 <NavItemsContainer>
                     <NavItem href="#" color="inherit">Home</NavItem>
                     <NavItem href="#" color="inherit">Login</NavItem>
