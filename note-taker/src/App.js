@@ -1,12 +1,21 @@
 import React from 'react';
+import { Route } from 'react-router-dom';
+import styled from 'styled-components';
 
-import './App.css';
+import Navbar from './components/Navbar';
+import LandingPage from './views/LandingPage';
+
+const AppContainer = styled.div``;
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <AppContainer>
+      <Navbar />
+      <Route exact path="/" render={props => 
+        <LandingPage {...props} />
+      }
+      />
+    </AppContainer>
   );
 }
 
